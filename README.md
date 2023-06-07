@@ -4,7 +4,7 @@ This is a module to help create functionality where you can select regions on a 
 ## Features
 - Load regions on a map to be (de)selected
 - Example implementation for all dutch municipalities
-- Included data for dutch provinces and zipcodes aswell all come with an easy generate button
+- Included data for dutch provinces and zipcodes aswell, all come with an easy generate button
 
 ## Usage
 1. Add a Google Maps API key to the GoogleAPIKey constant.

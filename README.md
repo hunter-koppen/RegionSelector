@@ -6,13 +6,14 @@ This is a module to help create functionality where you can select regions on a 
 - Example implementation for all dutch municipalities
 - Included data for dutch provinces and zipcodes aswell, all come with an easy generate button
 
-## Usage
-1. Add a Google Maps API key to the GoogleAPIKey constant.
-2. Setup the needed userroles for the module
-3. Add the SNIP_RegionData snippet to a backend page
-4. Add the SNIP_MapView snippet to a frontend page
-5. Run the app, navigate to the regiondata page created in step 3, click on the generate button on each tab (start with province, then municipality and then zipcodes).
-6. Navigate to the front-end page and check if it works, after (de)selected the correct data you can use the Apply Changes button to save the selecting.
+## Setup
+1. Download the Accordion and Data widgets module from the marketplace if you hav'nt already
+2. Add a Google Maps API key to the GoogleAPIKey constant.
+3. Setup the needed userroles for the module
+4. Add the SNIP_RegionData snippet to a backend page
+5. Add the SNIP_MapView snippet to a frontend page
+6. Run the app, navigate to the regiondata page created in step 3, click on the generate button on each tab (start with province, then municipality and then zipcodes).
+7. Navigate to the front-end page and check if it works, after (de)selected the correct data you can use the Apply Changes button to save the selecting.
 
 ## Customization
 *In case of reusing the dutch municipalities data*
@@ -24,6 +25,10 @@ Its important to note here that the widget currently does not support multipolyg
 
 An important tip for using your own coordinate data is to shrink the data by alot before importing it. For selecting regions you usually just need a decent shape. You can use the following online tool to shrink your data and potentionally massively improve the speed: https://mapshaper.org/
 Simply upload a geojson file, click import and then use the simplify feature (top right corner) to shrink the data, in most cases setting it between 5% to 0.8% is perfect for maintaining the shape with the least amount of data.
+
+## Dependencies
+- Accordion Widget (https://marketplace.mendix.com/link/component/117895)
+- Gallery Widget (https://marketplace.mendix.com/link/component/116540)
 
 ## Future ideas
 - Add support for multi-polygons polygons.

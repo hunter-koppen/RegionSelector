@@ -1,0 +1,13 @@
+@import "../../../theme/web/custom-variables";
+
+// remove google texts from the map
+.mx-polygonmap {
+    overflow: hidden;
+    .gmnoprint,
+    .gm-style-cc {
+        display: none;
+    }
+    a img {
+        display: none;
+    }
+}
